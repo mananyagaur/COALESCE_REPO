@@ -1,0 +1,96 @@
+fileVersion: 1
+id: 98546d1a-ef43-4254-ac85-76fa48965637
+name: RAW_FOREX
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SOURCE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 29eb2aa0-046a-4641-9439-7b0c51b6cdb2
+          stepCounter: 98546d1a-ef43-4254-ac85-76fa48965637
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: CONTENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: edda7ba1-d7ae-4e9b-be54-e3c639bc968a
+          stepCounter: 98546d1a-ef43-4254-ac85-76fa48965637
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: METADATA_FILENAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5c5b39ba-b5b0-4dfb-82e5-d47ad38a41a5
+          stepCounter: 98546d1a-ef43-4254-ac85-76fa48965637
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: METADATA_FILE_ROW_NUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: eee19f7a-fa56-4955-8693-8bbf5fe86f0d
+          stepCounter: 98546d1a-ef43-4254-ac85-76fa48965637
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: _INGESTED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('SOURCE', 'RAW_FOREX') }}
+  name: RAW_FOREX
+  schema: ""
+  sqlType: Source
+  table: RAW_FOREX
+  type: sourceInput
+  version: 1
+type: Node

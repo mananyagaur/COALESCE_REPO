@@ -1,0 +1,280 @@
+fileVersion: 1
+id: d1636032-cede-4564-8162-cf2ad83ee052
+name: STG_RAW_ETFS
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: TARGET
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8523690e-e4ec-4151-a843-97267923b308
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: meta_currency
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"RAW_ETFS\".\"CONTENT\":\"meta\".\"currency\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 41c2b1c3-27b5-4655-b28a-9d2bbd1034aa
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: meta_exchange
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"RAW_ETFS\".\"CONTENT\":\"meta\".\"exchange\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4477ee8e-daf6-4c8a-aa2c-bfdb91823598
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: meta_exchange_timezone
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"RAW_ETFS\".\"CONTENT\":\"meta\".\"exchange_timezone\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 497c4adf-cc3f-4296-a3b6-6f648236c26c
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: meta_interval
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"RAW_ETFS\".\"CONTENT\":\"meta\".\"interval\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d7d5c318-ab55-4424-ba8f-d5830b450e05
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: meta_mic_code
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"RAW_ETFS\".\"CONTENT\":\"meta\".\"mic_code\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0bc01a30-ac91-48e9-8b8d-4653a60059d7
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: meta_symbol
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"RAW_ETFS\".\"CONTENT\":\"meta\".\"symbol\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a20ae668-ea59-4965-811e-b06a747a9c9b
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: meta_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"RAW_ETFS\".\"CONTENT\":\"meta\".\"type\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a44d688f-833d-4967-856f-b5c5168e7e8e
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"RAW_ETFS\".\"CONTENT\":\"status\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 740ed976-0bc1-4b93-9e9e-c020bb9e5853
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: values_close
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"CONTENT_values\".value:\"close\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4aedb31b-d1a1-44bc-b984-482095e99149
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: values_datetime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"CONTENT_values\".value:\"datetime\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bfc71d79-8c2d-41b2-990f-b77f143fb227
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: values_high
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"CONTENT_values\".value:\"high\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4831288e-f7e6-4ca9-bc7c-2b5ee4d1a33e
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: values_low
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"CONTENT_values\".value:\"low\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5b0062c1-3074-4c3c-a754-1b6168b6b3e4
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: values_open
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"CONTENT_values\".value:\"open\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 97f67813-0c5e-45bd-a575-2b6deaa31984
+          stepCounter: d1636032-cede-4564-8162-cf2ad83ee052
+        config: {}
+        dataType: STRING
+        description: ""
+        name: values_volume
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ff56ced8-cd79-41e2-929e-1aa392017e07
+                stepCounter: eb4b8a81-e799-43d8-a660-bd431d007b91
+            transform: "\"CONTENT_values\".value:\"volume\"::STRING"
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          RAW_ETFS: eb4b8a81-e799-43d8-a660-bd431d007b91
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SOURCE
+            nodeName: RAW_ETFS
+        join:
+          joinCondition: |-
+            FROM {{ ref('SOURCE', 'RAW_ETFS') }} "RAW_ETFS", 
+            lateral flatten(input => "CONTENT":"values", OUTER => TRUE) "CONTENT_values" 
+        name: STG_RAW_ETFS
+        noLinkRefs: []
+  name: STG_RAW_ETFS
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

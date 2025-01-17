@@ -1,0 +1,96 @@
+fileVersion: 1
+id: b86b7204-0b4c-47a9-be7d-e259cbaa898a
+name: RAW_STOCKS
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SOURCE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 445f7a9a-c8df-4ec9-b6a7-4dad40ed21d1
+          stepCounter: b86b7204-0b4c-47a9-be7d-e259cbaa898a
+        config: {}
+        dataType: VARIANT
+        defaultValue: ""
+        description: ""
+        name: CONTENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9abd550d-4993-4875-8b9f-05251764454d
+          stepCounter: b86b7204-0b4c-47a9-be7d-e259cbaa898a
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: METADATA_FILENAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 52fef118-19b5-40dc-a98d-c87b0a99fc05
+          stepCounter: b86b7204-0b4c-47a9-be7d-e259cbaa898a
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: METADATA_FILE_ROW_NUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9360562d-269c-417a-864f-54f89fd39c64
+          stepCounter: b86b7204-0b4c-47a9-be7d-e259cbaa898a
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: _INGESTED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('SOURCE', 'RAW_STOCKS') }}
+  name: RAW_STOCKS
+  schema: ""
+  sqlType: Source
+  table: RAW_STOCKS
+  type: sourceInput
+  version: 1
+type: Node
