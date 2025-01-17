@@ -255,6 +255,26 @@ operation:
               - columnCounter: 445f7a9a-c8df-4ec9-b6a7-4dad40ed21d1
                 stepCounter: b86b7204-0b4c-47a9-be7d-e259cbaa898a
             transform: "\"CONTENT_values\".value:\"volume\"::STRING"
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d61c58fa-e22d-463a-9e5a-f0f0851266f0
+          stepCounter: 0cc5acd1-b978-4dc8-8ca2-6e7befc729c3
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: meta_currency_base
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: ""
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:

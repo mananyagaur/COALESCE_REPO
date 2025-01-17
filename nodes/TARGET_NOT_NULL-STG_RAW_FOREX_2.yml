@@ -19,62 +19,6 @@ operation:
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 38126ea5-8ed5-4328-8fd7-6293070b700c
-          stepCounter: 15a14bf7-0962-4173-ba6f-ec55b7d85cf6
-        config: {}
-        dataType: VARIANT
-        description: ""
-        name: CONTENT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 055b96b3-748f-46a0-9d10-641c275f6203
-                stepCounter: 70cfe16a-a6a8-434f-bc9c-172bd4ff5000
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 729ee935-0494-4e72-b453-3040ab8757ba
-          stepCounter: 15a14bf7-0962-4173-ba6f-ec55b7d85cf6
-        config: {}
-        dataType: VARCHAR(16777216)
-        description: ""
-        name: METADATA_FILENAME
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: d6ab91f4-606b-4298-b335-73c1ba9cd996
-                stepCounter: 70cfe16a-a6a8-434f-bc9c-172bd4ff5000
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: a6129821-a3ed-47ca-bfc5-8563294ecb10
-          stepCounter: 15a14bf7-0962-4173-ba6f-ec55b7d85cf6
-        config: {}
-        dataType: NUMBER(38,0)
-        description: ""
-        name: METADATA_FILE_ROW_NUMBER
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: bcbf7cb0-f5a2-48e0-b432-91b64e548839
-                stepCounter: 70cfe16a-a6a8-434f-bc9c-172bd4ff5000
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: 4f26f995-a6b9-4c0b-8b4b-d25448d470f4
-          stepCounter: 15a14bf7-0962-4173-ba6f-ec55b7d85cf6
-        config: {}
-        dataType: TIMESTAMP_NTZ(9)
-        description: ""
-        name: _INGESTED_AT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: ba139486-6957-441e-859a-76b7a59bbb1b
-                stepCounter: 70cfe16a-a6a8-434f-bc9c-172bd4ff5000
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 8ddff5e7-2924-4b0f-b658-4ddcfe21932c
           stepCounter: 15a14bf7-0962-4173-ba6f-ec55b7d85cf6
         config: {}
@@ -227,6 +171,26 @@ operation:
               - columnCounter: c7a0f4ae-1742-4a98-81c5-090598e570fe
                 stepCounter: 70cfe16a-a6a8-434f-bc9c-172bd4ff5000
             transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f1537ff-d1e5-4554-8054-5dd0cd61e18b
+          stepCounter: 15a14bf7-0962-4173-ba6f-ec55b7d85cf6
+        config: {}
+        dataType: ""
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: meta_mic_
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: ""
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
@@ -238,7 +202,7 @@ operation:
           - locationName: TARGET
             nodeName: STG_RAW_FOREX
         join:
-          joinCondition: FROM {{ ref('TARGET', 'STG_RAW_FOREX') }} "STG_RAW_FOREX" where "meta_currency_base" is NOT NULL AND "meta_currency_quote" IS NOT NULL AND "meta_interval" IS NOT NULL AND "meta_symbol" IS NOT NULL AND "meta_type" IS NOT NULL AND "status" IS NOT NULL AND "values_close" IS NOT NULL AND "values_datetime" IS NOT NULL AND "values_high" IS NOT NULL AND "values_low" IS NOT NULL AND "values_open" IS NOT NULL
+          joinCondition: FROM {{ ref('TARGET', 'STG_RAW_FOREX') }} "STG_RAW_FOREX" where "status"='ok'
         name: STG_RAW_FOREX_2
         noLinkRefs: []
   name: STG_RAW_FOREX_2
