@@ -1,6 +1,6 @@
 defaultStorageMapping: SOURCE
 fileVersion: 1
 locations:
+  - FINAL
   - SOURCE
   - TARGET
-  - TARGET_NOT_NULL

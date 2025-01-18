@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 197d8408-59e2-4216-b004-30da583a35f3
-name: STG_RAW_CRYPTO
+id: 4facae75-010b-4988-9dd9-3f1bf8449d86
+name: STG_CRYPTO
 operation:
   config:
     insertStrategy: INSERT
@@ -22,8 +22,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 086e9f60-0fba-44ad-bedf-060ba495e25d
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 7f8c87b2-cb7b-4df8-9fb1-ab129530c9e9
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -39,8 +39,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 60dad290-6d37-4589-b0e2-d6d720b42a87
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 99bf8573-27cf-469b-9fed-2df72c0c9eb1
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -56,8 +56,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: a110082e-991e-4419-8b15-a7022456d462
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 335b1a00-5f33-41c7-a755-f2228bdbeed4
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -73,8 +73,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 87045840-45af-4737-aafa-831a93351469
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: e43f6d2a-7edd-4749-9b43-91f72b1f2215
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -90,8 +90,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: ec6aa11a-c397-4129-99c6-c2085685baf6
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 082fea5b-4552-40f0-8f3d-d2a3d89549d3
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -107,8 +107,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 66711597-7aed-47a5-bc4b-083df0f0fe6f
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 8a5b25e2-629b-4243-9795-dfb6b242c718
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -124,8 +124,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 4d96fa5e-a3e4-4471-bcd8-2680dce028db
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 734c3cfa-e0b1-4bbf-93d1-7eebb7d77a13
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -141,8 +141,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 8f930f37-4577-45d4-b9d2-0fc0582b7927
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: fe607f61-1fc2-4861-aea9-c135e8df8787
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -158,8 +158,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: d4eb1ecd-6fc6-43da-866d-5228088ea6e2
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: de25ee00-2ab8-4501-a93a-c77501a0db4b
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -175,8 +175,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: fd9a0455-fbef-44b4-baae-934d24a7d90c
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 9d49ad87-8dfb-4233-9e37-b6b92cfb21ad
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -192,8 +192,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 28cc3878-828d-4680-aaa8-c9bd45c0cd28
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 40f1573d-348d-4c29-97ae-ca8b64851ffe
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -209,8 +209,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 24e6bc74-9583-4151-8960-fc1e70d3ab64
-          stepCounter: 197d8408-59e2-4216-b004-30da583a35f3
+          columnCounter: 9cfa35d3-caf8-49c8-9097-37bf91569639
+          stepCounter: 4facae75-010b-4988-9dd9-3f1bf8449d86
         config: {}
         dataType: STRING
         description: ""
@@ -224,7 +224,8 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          RAW_CRYPTO: ee0e7ce3-9abe-430c-84f3-a368ad01b884
         customSQL:
           customSQL: ""
         dependencies:
@@ -233,10 +234,10 @@ operation:
         join:
           joinCondition: |-
             FROM {{ ref('SOURCE', 'RAW_CRYPTO') }} "RAW_CRYPTO", 
-            lateral flatten(input => "CONTENT":"values", OUTER => TRUE) "CONTENT_values"
-        name: STG_RAW_CRYPTO
+            lateral flatten(input => "CONTENT":"values", OUTER => TRUE) "CONTENT_values" where "status" = 'ok'
+        name: STG_CRYPTO
         noLinkRefs: []
-  name: STG_RAW_CRYPTO
+  name: STG_CRYPTO
   overrideSQL: false
   schema: ""
   sqlType: Stage

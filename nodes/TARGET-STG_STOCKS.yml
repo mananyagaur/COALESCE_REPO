@@ -1,6 +1,6 @@
 fileVersion: 1
-id: f49b0191-0e6e-467c-9efb-d49e3d52197a
-name: STG_RAW_STOCKS_TEST
+id: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
+name: STG_STOCKS
 operation:
   config:
     insertStrategy: INSERT
@@ -22,8 +22,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: b6c363e8-26cf-40fd-a019-0cbc49df7005
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 748060e3-2bdd-47fe-a1ff-eb29ecffd0a0
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -39,8 +39,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 3921c976-2eaf-49cc-adbb-5b588893658c
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 4b7cfbd2-0637-49b3-91fa-4511ed47261c
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -56,8 +56,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: cab70f2e-eb90-4f56-85f7-c3b8c5c53366
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 3f9fb753-9f25-45e4-90a2-3c2f43176f99
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -73,8 +73,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 31f8f1cb-97b1-4f35-9af9-26986d5ed48c
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 3c26a01f-193d-4883-a838-64be873d7128
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -90,8 +90,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: a3342f26-dfe1-4853-8599-8f57d38cbd2e
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 1b935cee-fd55-4a7a-aab2-37a720f73032
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -107,8 +107,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: fd0dc724-53ef-4b01-992e-4caae10c2f7c
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 261618c6-dfce-4dc9-ad9e-bec2b0da3254
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -124,8 +124,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: e040599b-9d99-4b9a-85c2-2287cb5c1e03
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: c2d97ece-eb74-40ad-b14f-ace940e67f9b
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -141,8 +141,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: c0698eee-bc1b-4019-9ff4-768bfad5d650
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 23b1dfc2-cddf-4a9d-b83b-1171fb1ac710
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -158,8 +158,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 6fb64201-8eea-46cd-afe2-d7f3f6f123aa
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: bab1a34f-543a-4581-a5c2-2b979d656b61
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -175,8 +175,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 2917b4c1-eb0d-44fd-a0e8-edf1c500eb89
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 7ac57520-d055-4cd7-b6d9-791ad3fd551a
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -192,8 +192,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 52d82428-eca1-4590-9aa7-f5f1c014b402
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: a10555d3-4143-4041-864b-09de208e1640
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -209,8 +209,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: a6a7716a-7f23-41db-816e-333e0900cd88
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 290bce40-ee61-4504-b402-eb60e1cd2c53
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -226,8 +226,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: a8108dae-c72f-4505-97b1-d1afbf077092
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 40a424ce-8783-413e-843e-b0aadcb591a1
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -243,8 +243,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 3db93676-aee6-451d-bf71-8b1244bf9cae
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
+          columnCounter: 6a9750ad-1dd7-4bcc-ae00-212a0e1a1c0b
+          stepCounter: 0f4f5310-fd97-4d5b-b4f5-f45cfe500097
         config: {}
         dataType: STRING
         description: ""
@@ -255,46 +255,6 @@ operation:
               - columnCounter: 445f7a9a-c8df-4ec9-b6a7-4dad40ed21d1
                 stepCounter: b86b7204-0b4c-47a9-be7d-e259cbaa898a
             transform: "\"CONTENT_values\".value:\"volume\"::STRING"
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 027c5d63-89af-4092-b49d-b147e0657c39
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: meta_currency_base
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 112a77eb-e707-42c4-86e7-426c539f39d4
-          stepCounter: f49b0191-0e6e-467c-9efb-d49e3d52197a
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: meta_currency_quote
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
@@ -308,10 +268,10 @@ operation:
         join:
           joinCondition: |-
             FROM {{ ref('SOURCE', 'RAW_STOCKS') }} "RAW_STOCKS", 
-            lateral flatten(input => "CONTENT":"values", OUTER => TRUE) "CONTENT_values" where "status"='ok' 
-        name: STG_RAW_STOCKS_TEST
+            lateral flatten(input => "CONTENT":"values", OUTER => TRUE) "CONTENT_values" where "status" = 'ok'
+        name: STG_STOCKS
         noLinkRefs: []
-  name: STG_RAW_STOCKS_TEST
+  name: STG_STOCKS
   overrideSQL: false
   schema: ""
   sqlType: Stage

@@ -1,6 +1,6 @@
 fileVersion: 1
-id: 48b18af9-74f6-407f-a95b-2451b8b67fae
-name: STG_RAW_FOREX_TEST
+id: af4b6a35-6e90-4b10-80bd-2b626a2e8841
+name: STG_FOREX
 operation:
   config:
     insertStrategy: INSERT
@@ -22,8 +22,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 9050963d-52bc-4d74-9cd1-4ac617e396ae
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: 31fdd415-d04f-4ae2-a55f-adbff6587c6c
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -39,8 +39,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 7221d63c-32ae-4404-89cf-6a71329c49d6
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: b693ca3c-e8f7-42de-97ec-e5daed0479a9
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -56,8 +56,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: fdf151e9-3d84-412d-88d6-ab7316b7a6fd
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: 24ec8bd5-41d6-464d-9bbf-ae56792d5c90
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -73,8 +73,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 72b8aa3f-0a2c-4886-ad38-fd6b1ca02454
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: 3fa6492e-8010-47d4-9b3a-0533b23a69bf
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -90,8 +90,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 16c7b5af-3b79-4347-8c56-72f617992db1
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: 22e83aab-a8fb-4fdb-a772-b9beab1c854a
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -107,8 +107,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 3dfef0f1-cb32-4719-82dc-6c3641bb47e3
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: b623a37c-ebcf-4717-9513-350e0865b12d
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -124,8 +124,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: d26664ef-89b7-4678-9c91-1268ada4b1f0
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: 934a9650-c5e2-4c26-afb1-4c07764e931f
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -141,8 +141,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 83a825e3-654c-44ef-a161-171de56ca4c1
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: 562aef9c-6437-4270-8d96-454edb54e466
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -158,8 +158,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 83002794-da7a-434f-8ba4-9e583de1ce8c
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: 0d2bf9bc-8b95-4341-8f8d-f2ccf7bb3a09
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -175,8 +175,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: e008aef9-c9c3-42c3-ba43-919d0a3ef74a
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: b82e36b5-25fa-4eb8-b329-c900282697c3
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -192,8 +192,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 4761cbb3-f545-47c9-a850-bcc6cc5b72e5
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
+          columnCounter: 1d3fc702-394e-4ef4-bd58-172c824b291d
+          stepCounter: af4b6a35-6e90-4b10-80bd-2b626a2e8841
         config: {}
         dataType: STRING
         description: ""
@@ -204,106 +204,6 @@ operation:
               - columnCounter: 29eb2aa0-046a-4641-9439-7b0c51b6cdb2
                 stepCounter: 98546d1a-ef43-4254-ac85-76fa48965637
             transform: "\"CONTENT_values\".value:\"open\"::STRING"
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: cbf13d24-2778-43c4-a5dc-9790e8f86b50
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: meta_currency
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 58b6ea18-67b8-47db-90ac-9b7f2f430f2a
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: meta_exchange
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: e28a65be-1b28-4a10-94b8-61853705cb39
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: meta_exchange_timezone
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: eae01e69-1653-475f-a955-b34cbcd17d40
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: meta_mic_code
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 81bcdb95-7128-45cd-a6df-0f65b0c29290
-          stepCounter: 48b18af9-74f6-407f-a95b-2451b8b67fae
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        keyColumnType: None
-        name: values_volume
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: ""
-        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
@@ -316,11 +216,11 @@ operation:
             nodeName: RAW_FOREX
         join:
           joinCondition: |-
-            FROM {{ ref('SOURCE', 'RAW_FOREX') }} "RAW_FOREX" , 
-            lateral flatten(input => "CONTENT":"values", OUTER => TRUE) "CONTENT_values" where "status"='ok' 
-        name: STG_RAW_FOREX_TEST
+            FROM {{ ref('SOURCE', 'RAW_FOREX') }} "RAW_FOREX", 
+            lateral flatten(input => "CONTENT":"values", OUTER => TRUE) "CONTENT_values" where "status" = 'ok'
+        name: STG_FOREX
         noLinkRefs: []
-  name: STG_RAW_FOREX_TEST
+  name: STG_FOREX
   overrideSQL: false
   schema: ""
   sqlType: Stage
