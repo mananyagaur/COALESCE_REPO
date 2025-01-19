@@ -1,0 +1,169 @@
+fileVersion: 1
+id: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+name: FCT_TRANSACTIONS
+operation:
+  config:
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: FINAL
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e7c0d9c8-bf15-4c86-8f9e-281d24a08fde
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: STRING
+        description: ""
+        name: SYMBOL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cc2c3a48-d5d1-4aa2-b79d-0f40cc6a443e
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 81335ede-d8c5-45a1-93e0-e03ed697d001
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: STRING
+        description: ""
+        name: DATE_TRANSACTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 978f63e4-f349-4641-80e9-23c8d8b25758
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f0308a59-fe1d-43f9-909c-ddad4d993aea
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: STRING
+        description: ""
+        name: OPEN_PRICE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b6dd7c09-0b18-4f5c-b6e6-f80d4b62c342
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c989484d-b005-4458-8335-ca8c12b499c2
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: STRING
+        description: ""
+        name: HIGH_PRICE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 73794dc2-219f-479b-b6bf-4d66ade5574b
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 28f236dc-936f-4636-a311-7cd2b9a6b7ed
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: STRING
+        description: ""
+        name: LOW_PRICE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9a4b8780-fb92-439a-b0bc-ae7ea55196d9
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a83f9e4b-ea4f-439e-b261-8f164d17a1e0
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: STRING
+        description: ""
+        name: CLOSE_PRICE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a199d31c-a509-4450-bc13-825293f6deca
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6c675c68-5035-4f46-bb2c-47f2c9ce7696
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: STRING
+        description: ""
+        name: TRADE_VOLUME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7e0b24e7-2a0d-4c0e-a551-29fbb01335ee
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8727299d-c16c-41b2-b746-6d3e4c7de540
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemCreateDate: true
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2c6cc2c-54bf-4fb3-9bb1-3c1635715dc0
+          stepCounter: da13019d-e8bc-41db-85f1-e3ac0a4d53bf
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemUpdateDate: true
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: TARGET
+            nodeName: STG_TRANSACTIONS
+        join:
+          joinCondition: FROM {{ ref('TARGET', 'STG_TRANSACTIONS') }} "STG_TRANSACTIONS"
+        name: FCT_TRANSACTIONS
+        noLinkRefs: []
+  name: FCT_TRANSACTIONS
+  overrideSQL: false
+  schema: ""
+  sqlType: Fact
+  type: sql
+  version: 1
+type: Node

@@ -1,0 +1,184 @@
+fileVersion: 1
+id: 7604c4b3-a939-4ff9-af4b-f235e519abad
+name: VW_DISTINCT_SYMBOL
+operation:
+  config:
+    insertStrategy: UNION
+    selectDistinct: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: TARGET
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a22c3f87-ffbb-42b5-8873-352981132385
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: SYMBOL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cc2c3a48-d5d1-4aa2-b79d-0f40cc6a443e
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 74c4d509-ea6b-460f-893d-833fae54c1c4
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: ASSET_TYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1af3e0f5-32d3-4eb3-a087-b6b950342410
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e16066d2-9f00-4202-a0a6-ca4be3742ce3
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: INTERVAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0a95b843-64eb-46d6-8393-f374fadf271f
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e586c394-06bd-4b98-bb8d-9939c587b24e
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: CURRENCY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 02ab63b4-4584-43dd-8144-30d7d8ee81fc
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 77f21d15-f656-493f-b552-0d44e9c31147
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: CURRENCY_BASE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a082ef15-d6da-4cec-bfcd-3c31fbeb9555
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 41d3f53d-095f-4ab0-a5a4-66d3ac7c0db5
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: CURRENCY_QUOTE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fef54c0b-0946-4e90-9d8b-6b307fd08eb0
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 106b9ccd-983f-4034-b86f-4b06d63eae34
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: EXCHANGE_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 531bf9c2-66ec-4762-b031-3e29abf54064
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7e874e55-e222-46e4-a44d-331ab34db731
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: EXCHANGE_TIMEZONE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 29021de3-d7c9-4ec6-b3ba-165feedb6898
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e58a4e0f-921f-4706-b468-3d02359684b8
+          stepCounter: 7604c4b3-a939-4ff9-af4b-f235e519abad
+        config: {}
+        dataType: STRING
+        description: ""
+        name: MIC_CODE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 782c0be2-d2e1-4918-8d7c-5aac5ae0cdac
+                stepCounter: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          STG_TRANSACTIONS: 19fa0d03-4a92-4f2e-8d94-49bf5b421ab4
+        customSQL:
+          customSQL: |-
+            {{ stage('Override Create SQL') }}
+            	CREATE OR REPLACE VIEW {{ ref('TARGET', 'VW_DIM_SYMBOL')}} AS (
+            		SELECT 
+             "SYMBOL" AS "SYMBOL",
+             "ASSET_TYPE" AS "ASSET_TYPE",
+             "DATE_TRANSACTION" AS "DATE_TRANSACTION",
+             "OPEN_PRICE" AS "OPEN_PRICE",
+             "HIGH_PRICE" AS "HIGH_PRICE",
+             "LOW_PRICE" AS "LOW_PRICE",
+             "CLOSE_PRICE" AS "CLOSE_PRICE",
+             "TRADE_VOLUME" AS "TRADE_VOLUME",
+             "INTERVAL" AS "INTERVAL",
+             "CURRENCY" AS "CURRENCY",
+             "CURRENCY_BASE" AS "CURRENCY_BASE",
+             "CURRENCY_QUOTE" AS "CURRENCY_QUOTE",
+             "EXCHANGE_NAME" AS "EXCHANGE_NAME",
+             "EXCHANGE_TIMEZONE" AS "EXCHANGE_TIMEZONE",
+             "MIC_CODE" AS "MIC_CODE",
+             "STATUS" AS "STATUS"
+             FROM {{ ref('TARGET', 'STG_TRANSACTIONS') }}
+            	)
+        dependencies:
+          - locationName: TARGET
+            nodeName: STG_TRANSACTIONS
+        join:
+          joinCondition: "FROM {{ ref('TARGET', 'STG_TRANSACTIONS') }} \"STG_TRANSACTIONS\" "
+        name: VW_DISTINCT_SYMBOL
+        noLinkRefs: []
+  name: VW_DISTINCT_SYMBOL
+  overrideSQL: false
+  schema: ""
+  sqlType: View
+  type: sql
+  version: 1
+type: Node
