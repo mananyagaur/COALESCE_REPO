@@ -1,13 +1,13 @@
 fileVersion: 1
 id: "1"
-macroString: |-
-  {% macro rename_columns(columns) %}
-      {% for column in columns %}
-          {% if column.originalName and column.transName %}
-              {{ column.originalName }} AS {{ column.transName }}
-              {% if not loop.last %},{% endif %}
-          {% endif %}
-      {% endfor %}
-  {% endmacro %}
+macroString: |
+  {%- macro rename_column(col) -%}
+  {{ 
+      parameters.columns
+      | selectattr('originalName', 'equalto', col)  
+      | map(attribute='transName')                
+      | first                                      
+  }}
+  {%- endmacro -%}
 name: macro
 type: Macro
